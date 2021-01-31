@@ -17,7 +17,11 @@
         {% include interests.html %}
       </div>
     {% endif %}
-
+    {% if site.schools %}
+    <div class="my-6">
+      {% include education.html %}
+    </div>
+    {% endif %}
     {% unless posts_total == 0 %}
       <div class="my-6">
         {% include thoughts.html %}
@@ -43,7 +47,9 @@
         {% if site.topics %}
           {% include interests.html %}
         {% endif %}
-
+        {% if site.schools %}
+          {% include education.html %}
+        {% endif %}
         {% unless posts_total == 0 %}
           {% include thoughts.html %}
         {% endunless %}

@@ -1,5 +1,5 @@
 layout: sidebar
-style: light
+style: dark
 
 plugins:
   - jekyll-octicons
@@ -24,35 +24,77 @@ projects:
   limit: 9
   exclude:
     archived: false
-    forks: true
+    forks: false
     projects:
     # - repo-name
 
-# social_media:
+social_media:
   # behance: your_username
   # dribbble: your_username
-  # facebook: your_username
-  # hackerrank: your_username
-  # instagram: your_username
+  facebook: taruntheyoungstar
+  hackerrank: tarunkumar8718
+  instagram: tarun_66
   # keybase: your_username
-  # linkedin: your_username
+  linkedin: tarun-kumar-5684541a8/
   # mastodon: your_username
-  # medium: your_username
+  medium: tarunkumar8718
   # stackoverflow: your_user_id
   # telegram: your_username
-  # twitter: your_username
+  twitter: tarun_kumar_66
   # unsplash: your_username
   # vk: your_username
   # website: http://your_website_url
   # youtube: your_username
 
 topics:
-  - name: CSS
-    web_url: https://github.com/topics/css
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/css/css.png
+  - name: Electron
+    web_url: https://github.com/topics/electron
+    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/electron/electron.png
+  
+  - name: NODEJS
+    web_url: https://github.com/topics/nodejs
+    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png
+  
+  - name: React
+    web_url: https://github.com/topics/react
+    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png
+  
+  - name: MongoDB
+    web_url: https://github.com/topics/mongodb
+    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mongodb/mongodb.png
 
-  - name: Web design
+  - name: Express
+    web_url: https://github.com/topics/express
+    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/express/express.png
 
-  - name: Sass
-    web_url: https://github.com/topics/sass
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/sass/sass.png
+  - name: Python
+    web_url: https://github.com/topics/python
+    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png
+
+  - name: Django
+    web_url: https://github.com/topics/django
+    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/django/django.png
+  
+  - name: java
+    web_url: https://github.com/topics/java
+    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/java/java.png
+
+  - name: C++
+    web_url: https://github.com/topics/cpp
+    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/cpp/cpp.png
+
+schools:
+  - name: Chaitanya Bharathi Institute of Technology(2018-2022)
+    web_url: https://www.cbit.ac.in/
+    image_url: https://img.collegedekhocdn.com/media/img/institute/logo/Chaitanya_Bharathi_Institute_of_Technology_logo.png
+    description: Undergraduate in Information Technology. CGPA 8.6/10
+  
+  - name: Narayana Junior College (2016-2018)
+    web_url: https://www.narayanagroup.com/
+    image_url: https://www.logolynx.com/images/logolynx/33/338f2c4e0d48a27ed6ad2a72821d3721.jpeg
+    description: Studied Science and Mathematics. Scored 96% in Intermediate Public Exam.
+  
+  - name: P Obul Reddy Public School(2016)
+    web_url: http://www.amsporps.org/
+    image_url: https://upload.wikimedia.org/wikipedia/en/c/c0/Obul_reddy_school_logo.png
+    description: Secured CGPA 9.6 in Central Board of Secondary Education Board Exam.
